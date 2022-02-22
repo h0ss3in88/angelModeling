@@ -1,0 +1,47 @@
+{
+  "name": "angelModeling",
+  "version": "1.0.0",
+  "description": "no description yet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h0ss3in88/angelModeling.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h0ss3in88/angelModeling/issues"
+  },
+  "homepage": "https://github.com/h0ss3in88/angelModeling#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cluster": "^0.7.7",
+    "compression": "^1.7.4",
+    "dotenv": "^16.0.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "http": "0.0.1-security",
+    "http-status": "^1.5.0",
+    "humps": "^2.0.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.3",
+    "pg-promise": "^10.11.1",
+    "pluralize": "^8.0.0",
+    "response-time": "^2.3.2",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "faker": "^6.6.6",
+    "mocha": "^9.2.1",
+    "sinon": "^13.0.1",
+    "supertest": "^6.2.2"
+  }
+}
