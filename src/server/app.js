@@ -5,6 +5,7 @@ const bodyParser = require("body-parser");
 const compression = require("compression");
 const responseTime = require("response-time");
 const errHandler = require("errorhandler");
+const {init} = require("./api");
 require('dotenv').config();
 
 const getApp = function () {
@@ -16,6 +17,7 @@ const getApp = function () {
     app.use(compression());
     app.use(responseTime());
     app.set('PORT', process.env.APP_PORT);
+    init(app);
     app.use("/index", (req,res,next) => {
         return res.status(200).json({"message": "hello World"});
     });
